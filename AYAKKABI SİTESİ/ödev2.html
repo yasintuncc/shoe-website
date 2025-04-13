@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--  -->
+    <fieldset>
+        <legend>Kayit formu</legend>
+        <table border="1">
+            <tr>
+            <td>Adı soyadı</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Mail</td>
+            <td><input type="text" placeholder=".....@gmail.com"></td>
+        </tr>
+        <tr>
+            <td>telefon</td>
+            <td><input type="text" placeholder="(___)___ ___" required></td>
+        </tr>
+        <tr>
+            <td>Mesajınız</td>
+            <td>
+                <textarea name="" id="" cols="30" rows="7"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Fotoğraf Ekle</td>
+            <td><input type="file" id="fotom" name="fotom"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+              <input type="submit" value=" kayit ol" />
+            </td>
+          </tr>
+          
+        </table>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Diğer Bilgiler</legend>
+        <table width="350">
+            <tr>
+                <th colspan="2">Buradaki alanlar Mesleki Deneyimi Kapsar</th>
+            </tr>
+            <tr>
+                <td>Sektöre Giriş Tarihi</td>
+                <td>
+                    <input type="date" >
+                </td>
+            </tr>
+            <tr>
+                <td>Sektör Deyimi</td>
+                <td>
+                <label><input type="radio" name="deneyim">1 - 5 yıl</label><br>
+                <label><input type="radio" name="deneyim">6 - 10 yıl</label><br>
+                <label><input type="radio" name="deneyim">11 - 15 yıl</label><br>
+                <label><input type="radio" name="deneyim">15 üzeri yıl</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Programlama Dilleri</td>
+                <td>
+                    <select name="dil" id="dil" multiple size="5">
+                        <option>C#</option>
+                        <option selected>PHP</option>
+                        <option>Java</option>
+                        <option>Python</option>
+                        <option>JavaScript</option>
+                        <option>C++</option>
+                        <option>C</option>
+                        <option>Pascal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                  <input type="submit" value=" işlemi tamamla" />
+                </td>
+              </tr>
+        </table>
+    </fieldset>
+  
+</body>
+</html>

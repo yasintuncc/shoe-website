@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(230, 220, 220);
+    padding: 10px;
+
+}
+
+header>h1{
+    color: blueviolet;
+    text-align: center;
+}
+header{
+    background-color: rgb(2, 15, 20);
+}
+
+h2{
+    color: red;
+    text-align: center;
+}
+
+.p2 p{
+    font-weight: 500;
+    font-size: larger;
+    text-align: center;
+    color: rgb(54, 23, 10);
+}
+
+img{
+    height: 200px;
+    position: relative;
+    padding-left: 800px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+nav{
+    text-align: center;
+}
+
