@@ -4,13 +4,19 @@ Bu proje, modern ve şık tasarımıyla öne çıkan bir ayakkabı tanıtım web
 
 🚀 Özellikler
 Modern kullanıcı arayüzü
+
 Duyarlı (responsive) tasarım
+
 Ürün listeleme bölümü
+
 Şık açılış animasyonları ve hover efektleri
+
 Temiz ve anlaşılır kod yapısı
 
 
 🛠️ Kullanılan Teknolojiler
 HTML5
+
 CSS3
+
 JavaScript (Vanilla)
