@@ -1,4 +1,5 @@
 SHOE WEBSİTE
+
 Bu proje, modern ve şık tasarımıyla öne çıkan bir ayakkabı tanıtım web sitesi frontend çalışmasıdır. HTML, CSS ve JavaScript kullanılarak geliştirilmiştir. Kullanıcı odaklı arayüz ve duyarlı tasarımıyla farklı cihazlarda sorunsuz görüntülenebilir.
 
 🚀 Özellikler
